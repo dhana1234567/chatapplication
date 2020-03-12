@@ -1449,7 +1449,7 @@
                         "designerReference": [
                             {
                                 "_key": "style",
-                                "_value": "height:200px;padding:15px;",
+                                "_value": "height:100px;padding:15px;",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -1746,7 +1746,7 @@
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "70",
+                                "_value": "50",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -2041,7 +2041,7 @@
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "70",
+                                "_value": "50",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },

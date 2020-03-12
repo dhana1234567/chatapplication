@@ -24,14 +24,14 @@
       </div>
       <div fxLayout="row wrap" style="margin-left:120px;" fxLayoutGap="20px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><button mat-raised-button color="warn" (click)="leave()">Leave</button><button mat-raised-button color="primary" (click)="join()">Join</button></div>
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-        <div style="height:200px;padding:15px;" class="well">
+        <div style="height:100px;padding:15px;" class="well">
           <div *ngFor="let item of messageArray">
             <span><strong> {{item.user}} </strong> {{item.message}} </span>
           </div>
         </div>
       </div>
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-        <div fxLayout="column wrap" fxFlex="70" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
           <mat-form-field [appearance]="&apos;fill&apos;" [floatLabel]="&apos;auto&apos;">
             <input matInput [(ngModel)]="messageText" placeholder="Type a message..." required>
 
@@ -39,7 +39,7 @@
         </div>
       </div>
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-        <div fxLayout="column wrap" fxFlex="70" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><button mat-raised-button color="accent" (click)="sendMessage()">Send</button></div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><button mat-raised-button color="accent" (click)="sendMessage()">Send</button></div>
       </div>
     </div>
   </div>
